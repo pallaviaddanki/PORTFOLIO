@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #ddd8d8; /* Dark gray background */
+}
+
+header {
+  height: 100vh;
+  padding: 36px 100px;
+  background-image: url("./sai photo2 .jpg");
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100vw;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 90%;
+}
+
+header nav img {
+  height: 80px; /* Adjusted image height */
+  width: auto; /* Let width adjust automatically */
+}
+
+header nav ul {
+  display: flex;
+  list-style: none; /* Removed bullet points */
+}
+
+header nav ul li {
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  color: #fff; /* White text color */
+  text-decoration: none;
+  transition: color 0.5s ease; /* Smooth transition for text color */
+}
+
+header nav ul li a:hover {
+  color: dodgerblue; /* Hover color */
+}
